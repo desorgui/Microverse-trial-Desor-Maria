@@ -4,6 +4,29 @@
 		<meta charset="UTF-8" />
 		<title>Fork Me! FCC: Test Suite Template</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<style>
+			#header {
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+				justify-content: center;
+			}
+			#header nav {
+				display: flex;
+				justify-content: space-evenly;
+				width: 500px;
+			}
+			#header nav li {
+				list-style: none;
+			}
+
+			@media (max-width: 600px) {
+				#header {
+					display: flex;
+					flex-direction: column;
+				}
+			}
+		</style>
 	</head>
 
 	<body>
@@ -12,25 +35,26 @@
 				id="header-img"
 				src="https://upload.wikimedia.org/wikipedia/commons/6/63/IMG_%28business%29.svg"
 			/>
-<<<<<<< HEAD
 			<nav id="nav-bar">
 				<li href="#feature" class="nav-link">Feature</li>
-				<li href="#how-it-work" class="nav-link">Feature</li>
-				<li href="#about" class="nav-link">Feature</li>
+				<li href="#how-it-work" class="nav-link">Work</li>
+				<li href="#about" class="nav-link">About</li>
 			</nav>
 		</header>
 		<iframe
 			id="video"
 			src="https://www.youtube.com/watch?v=JyX7uanlZ4Q"
 		></iframe>
-		<form id="form" action="https://www.freecodecamp.com/email-submit"><input
-			name="email"
-			id="email"
-			type="email"
-			placeholder="Enter your email address"
-			required
-		  />
-		  <input id="submit" type="submit"/></form>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<input
+				name="email"
+				id="email"
+				type="email"
+				placeholder="Enter your email address"
+				required
+			/>
+			<input id="submit" type="submit" />
+		</form>
 		<section id="feature"></section>
 		<section id="how-it-work"></section>
 		<section id="about"></section>
