@@ -1,0 +1,21 @@
+#header {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+#header nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 500px;
+}
+#header nav li {
+	list-style: none;
+}
+
+@media (max-width: 600px) {
+	#header {
+		display: flex;
+		flex-direction: column;
+	}
+}
